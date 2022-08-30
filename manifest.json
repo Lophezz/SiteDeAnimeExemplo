@@ -1,0 +1,20 @@
+{
+  "name": "Wanimy",
+  "short_name": "Wanimy",
+  "description": "Simulador de site de anime.",
+  "display": "fullscreen",
+  "start_url":"Index.html",    
+  "scope": "/",
+  
+  "icons": [
+      {
+          "src": "img/wanimy.png",
+          "sizes": "108x108",
+          "type": "image/png"
+      },
+      {
+          "src": "img/wanimy1.png",
+          "sizes": "165x49",
+          "type": "image/png"
+      }]
+}
