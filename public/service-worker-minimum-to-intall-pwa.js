@@ -24,7 +24,7 @@ self.addEventListener('fetch', event => {
     
 
     if (url.origin == location.origin && url.pathname == 'Index.html') {
-        event. respondWith(caches.match('Index.html'));
+        event. respondWith(caches.match('/Index.html'));
     }
 });
 
