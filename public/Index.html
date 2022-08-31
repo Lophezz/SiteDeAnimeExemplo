@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/wanimy.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json?v=8">
+    <script type="js/main.js" defer=""></script>
     <title>Wanimy</title>
 </head>
 <body>
@@ -162,5 +163,17 @@
     <a class="text-white" href="#top">Wanimy.com</a>
   </div>
 </footer>
+<script>
+	if('serviceWorker' in navigator) {
+    	window.addEventListener('load', () => {
+    		console.log('App is loader');
+    		navigator.serviceWorker.register('./service-worker-minimum-to-intall-pwa.js')
+    		.then( () => {
+    			console.log("Service Worker registerd");
+    		})
+    	})
+    }
+
+</script>
 </body>
 </html>
