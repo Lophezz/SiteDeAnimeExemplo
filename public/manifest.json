@@ -8,11 +8,13 @@
   
   "icons": [
       {
-          "src": "img/instragam.png",
-          "sizes": "192x512",
+          "src": "img/instagram.png",
+          "sizes": "3840x2160",
           "type": "image/png"
       },
       {
-
+          "src": "img/instagram.png",
+          "sizes": "3840x2160",
+          "type": "image/png"
       }]
 }
