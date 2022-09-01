@@ -8,13 +8,11 @@
   
   "icons": [
       {
-          "src": "img/wanimy.png",
-          "sizes": "108x108",
+          "src": "img/instragam.png",
+          "sizes": "192x512",
           "type": "image/png"
       },
       {
-          "src": "img/wanimy1.png",
-          "sizes": "165x49",
-          "type": "image/png"
+
       }]
 }
