@@ -170,7 +170,7 @@ body {
 
 .tabela {
     box-sizing: border-box;
-    position: ;
+    position: 0;
     width: 500px;
     height: 200px;
     border: 1px solid #00C2FF;

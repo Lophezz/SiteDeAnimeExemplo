@@ -3,7 +3,7 @@
   "short_name": "Wanimy",
   "description": "Simulador de site de anime.",
   "display": "fullscreen",
-  "start_url":"Index.html",    
+  "start_url":"/Index.html",    
   "scope": "/",
   
   "icons": [
